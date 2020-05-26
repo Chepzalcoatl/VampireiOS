@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F0AC41247CB5B800209BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC40247CB5B800209BCD /* AppDelegate.swift */; };
+		04F0AC43247CB5B800209BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC42247CB5B800209BCD /* SceneDelegate.swift */; };
+		04F0AC45247CB5B800209BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC44247CB5B800209BCD /* ViewController.swift */; };
+		04F0AC48247CB5B800209BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F0AC46247CB5B800209BCD /* Main.storyboard */; };
+		04F0AC4A247CB5B900209BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F0AC49247CB5B900209BCD /* Assets.xcassets */; };
+		04F0AC4D247CB5B900209BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F0AC4B247CB5B900209BCD /* LaunchScreen.storyboard */; };
+		04F0AC58247CB5B900209BCD /* VampireiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC57247CB5B900209BCD /* VampireiOSTests.swift */; };
+		04F0AC63247CB5B900209BCD /* VampireiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC62247CB5B900209BCD /* VampireiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F0AC54247CB5B900209BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F0AC35247CB5B800209BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F0AC3C247CB5B800209BCD;
+			remoteInfo = VampireiOS;
+		};
+		04F0AC5F247CB5B900209BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F0AC35247CB5B800209BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F0AC3C247CB5B800209BCD;
+			remoteInfo = VampireiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F0AC3D247CB5B800209BCD /* VampireiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VampireiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F0AC40247CB5B800209BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F0AC42247CB5B800209BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04F0AC44247CB5B800209BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F0AC47247CB5B800209BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F0AC49247CB5B900209BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F0AC4C247CB5B900209BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F0AC4E247CB5B900209BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F0AC53247CB5B900209BCD /* VampireiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VampireiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F0AC57247CB5B900209BCD /* VampireiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VampireiOSTests.swift; sourceTree = "<group>"; };
+		04F0AC59247CB5B900209BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F0AC5E247CB5B900209BCD /* VampireiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VampireiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F0AC62247CB5B900209BCD /* VampireiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VampireiOSUITests.swift; sourceTree = "<group>"; };
+		04F0AC64247CB5B900209BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F0AC3A247CB5B800209BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0AC50247CB5B900209BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0AC5B247CB5B900209BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F0AC34247CB5B800209BCD = {
+			isa = PBXGroup;
+			children = (
+				04F0AC3F247CB5B800209BCD /* VampireiOS */,
+				04F0AC56247CB5B900209BCD /* VampireiOSTests */,
+				04F0AC61247CB5B900209BCD /* VampireiOSUITests */,
+				04F0AC3E247CB5B800209BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F0AC3E247CB5B800209BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F0AC3D247CB5B800209BCD /* VampireiOS.app */,
+				04F0AC53247CB5B900209BCD /* VampireiOSTests.xctest */,
+				04F0AC5E247CB5B900209BCD /* VampireiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F0AC3F247CB5B800209BCD /* VampireiOS */ = {
+			isa = PBXGroup;
+			children = (
+				04F0AC40247CB5B800209BCD /* AppDelegate.swift */,
+				04F0AC42247CB5B800209BCD /* SceneDelegate.swift */,
+				04F0AC44247CB5B800209BCD /* ViewController.swift */,
+				04F0AC46247CB5B800209BCD /* Main.storyboard */,
+				04F0AC49247CB5B900209BCD /* Assets.xcassets */,
+				04F0AC4B247CB5B900209BCD /* LaunchScreen.storyboard */,
+				04F0AC4E247CB5B900209BCD /* Info.plist */,
+			);
+			path = VampireiOS;
+			sourceTree = "<group>";
+		};
+		04F0AC56247CB5B900209BCD /* VampireiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F0AC57247CB5B900209BCD /* VampireiOSTests.swift */,
+				04F0AC59247CB5B900209BCD /* Info.plist */,
+			);
+			path = VampireiOSTests;
+			sourceTree = "<group>";
+		};
+		04F0AC61247CB5B900209BCD /* VampireiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F0AC62247CB5B900209BCD /* VampireiOSUITests.swift */,
+				04F0AC64247CB5B900209BCD /* Info.plist */,
+			);
+			path = VampireiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F0AC3C247CB5B800209BCD /* VampireiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F0AC67247CB5B900209BCD /* Build configuration list for PBXNativeTarget "VampireiOS" */;
+			buildPhases = (
+				04F0AC39247CB5B800209BCD /* Sources */,
+				04F0AC3A247CB5B800209BCD /* Frameworks */,
+				04F0AC3B247CB5B800209BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VampireiOS;
+			productName = VampireiOS;
+			productReference = 04F0AC3D247CB5B800209BCD /* VampireiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F0AC52247CB5B900209BCD /* VampireiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F0AC6A247CB5B900209BCD /* Build configuration list for PBXNativeTarget "VampireiOSTests" */;
+			buildPhases = (
+				04F0AC4F247CB5B900209BCD /* Sources */,
+				04F0AC50247CB5B900209BCD /* Frameworks */,
+				04F0AC51247CB5B900209BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F0AC55247CB5B900209BCD /* PBXTargetDependency */,
+			);
+			name = VampireiOSTests;
+			productName = VampireiOSTests;
+			productReference = 04F0AC53247CB5B900209BCD /* VampireiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F0AC5D247CB5B900209BCD /* VampireiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F0AC6D247CB5B900209BCD /* Build configuration list for PBXNativeTarget "VampireiOSUITests" */;
+			buildPhases = (
+				04F0AC5A247CB5B900209BCD /* Sources */,
+				04F0AC5B247CB5B900209BCD /* Frameworks */,
+				04F0AC5C247CB5B900209BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F0AC60247CB5B900209BCD /* PBXTargetDependency */,
+			);
+			name = VampireiOSUITests;
+			productName = VampireiOSUITests;
+			productReference = 04F0AC5E247CB5B900209BCD /* VampireiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F0AC35247CB5B800209BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Adan Cervera";
+				TargetAttributes = {
+					04F0AC3C247CB5B800209BCD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					04F0AC52247CB5B900209BCD = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 04F0AC3C247CB5B800209BCD;
+					};
+					04F0AC5D247CB5B900209BCD = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 04F0AC3C247CB5B800209BCD;
+					};
+				};
+			};
+			buildConfigurationList = 04F0AC38247CB5B800209BCD /* Build configuration list for PBXProject "VampireiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F0AC34247CB5B800209BCD;
+			productRefGroup = 04F0AC3E247CB5B800209BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F0AC3C247CB5B800209BCD /* VampireiOS */,
+				04F0AC52247CB5B900209BCD /* VampireiOSTests */,
+				04F0AC5D247CB5B900209BCD /* VampireiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F0AC3B247CB5B800209BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F0AC4D247CB5B900209BCD /* LaunchScreen.storyboard in Resources */,
+				04F0AC4A247CB5B900209BCD /* Assets.xcassets in Resources */,
+				04F0AC48247CB5B800209BCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0AC51247CB5B900209BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0AC5C247CB5B900209BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F0AC39247CB5B800209BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F0AC45247CB5B800209BCD /* ViewController.swift in Sources */,
+				04F0AC41247CB5B800209BCD /* AppDelegate.swift in Sources */,
+				04F0AC43247CB5B800209BCD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0AC4F247CB5B900209BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F0AC58247CB5B900209BCD /* VampireiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0AC5A247CB5B900209BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F0AC63247CB5B900209BCD /* VampireiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F0AC55247CB5B900209BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F0AC3C247CB5B800209BCD /* VampireiOS */;
+			targetProxy = 04F0AC54247CB5B900209BCD /* PBXContainerItemProxy */;
+		};
+		04F0AC60247CB5B900209BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F0AC3C247CB5B800209BCD /* VampireiOS */;
+			targetProxy = 04F0AC5F247CB5B900209BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F0AC46247CB5B800209BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F0AC47247CB5B800209BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F0AC4B247CB5B900209BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F0AC4C247CB5B900209BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F0AC65247CB5B900209BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F0AC66247CB5B900209BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F0AC68247CB5B900209BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V9798ZES;
+				INFOPLIST_FILE = VampireiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adancervera.VampireiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F0AC69247CB5B900209BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V9798ZES;
+				INFOPLIST_FILE = VampireiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adancervera.VampireiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F0AC6B247CB5B900209BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V9798ZES;
+				INFOPLIST_FILE = VampireiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adancervera.VampireiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VampireiOS.app/VampireiOS";
+			};
+			name = Debug;
+		};
+		04F0AC6C247CB5B900209BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V9798ZES;
+				INFOPLIST_FILE = VampireiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adancervera.VampireiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VampireiOS.app/VampireiOS";
+			};
+			name = Release;
+		};
+		04F0AC6E247CB5B900209BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V9798ZES;
+				INFOPLIST_FILE = VampireiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adancervera.VampireiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VampireiOS;
+			};
+			name = Debug;
+		};
+		04F0AC6F247CB5B900209BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V9798ZES;
+				INFOPLIST_FILE = VampireiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adancervera.VampireiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VampireiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F0AC38247CB5B800209BCD /* Build configuration list for PBXProject "VampireiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0AC65247CB5B900209BCD /* Debug */,
+				04F0AC66247CB5B900209BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F0AC67247CB5B900209BCD /* Build configuration list for PBXNativeTarget "VampireiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0AC68247CB5B900209BCD /* Debug */,
+				04F0AC69247CB5B900209BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F0AC6A247CB5B900209BCD /* Build configuration list for PBXNativeTarget "VampireiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0AC6B247CB5B900209BCD /* Debug */,
+				04F0AC6C247CB5B900209BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F0AC6D247CB5B900209BCD /* Build configuration list for PBXNativeTarget "VampireiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0AC6E247CB5B900209BCD /* Debug */,
+				04F0AC6F247CB5B900209BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F0AC35247CB5B800209BCD /* Project object */;
+}
