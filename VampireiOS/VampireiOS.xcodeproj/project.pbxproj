@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04442DAE247E1B4300D9A622 /* PandaBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04442DAD247E1B4300D9A622 /* PandaBoard.storyboard */; };
+		04491AEF24821BA5007A3D3E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04491AEE24821BA5007A3D3E /* TableViewCell.swift */; };
+		04491AF124821C45007A3D3E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04491AF024821C45007A3D3E /* TableViewController.swift */; };
+		04491AF424822090007A3D3E /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04491AF224822090007A3D3E /* NameTableViewCell.swift */; };
+		04491AF524822090007A3D3E /* NameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04491AF324822090007A3D3E /* NameTableViewCell.xib */; };
 		04F0AC41247CB5B800209BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC40247CB5B800209BCD /* AppDelegate.swift */; };
 		04F0AC43247CB5B800209BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC42247CB5B800209BCD /* SceneDelegate.swift */; };
 		04F0AC45247CB5B800209BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC44247CB5B800209BCD /* ViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04442DAD247E1B4300D9A622 /* PandaBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PandaBoard.storyboard; sourceTree = "<group>"; };
+		04491AEE24821BA5007A3D3E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04491AF024821C45007A3D3E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		04491AF224822090007A3D3E /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		04491AF324822090007A3D3E /* NameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameTableViewCell.xib; sourceTree = "<group>"; };
 		04F0AC3D247CB5B800209BCD /* VampireiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VampireiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F0AC40247CB5B800209BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F0AC42247CB5B800209BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +89,8 @@
 		04F0AC34247CB5B800209BCD = {
 			isa = PBXGroup;
 			children = (
+				04491AF224822090007A3D3E /* NameTableViewCell.swift */,
+				04491AF324822090007A3D3E /* NameTableViewCell.xib */,
 				04F0AC3F247CB5B800209BCD /* VampireiOS */,
 				04F0AC56247CB5B900209BCD /* VampireiOSTests */,
 				04F0AC61247CB5B900209BCD /* VampireiOSUITests */,
@@ -106,6 +118,9 @@
 				04F0AC49247CB5B900209BCD /* Assets.xcassets */,
 				04F0AC4B247CB5B900209BCD /* LaunchScreen.storyboard */,
 				04F0AC4E247CB5B900209BCD /* Info.plist */,
+				04442DAD247E1B4300D9A622 /* PandaBoard.storyboard */,
+				04491AEE24821BA5007A3D3E /* TableViewCell.swift */,
+				04491AF024821C45007A3D3E /* TableViewController.swift */,
 			);
 			path = VampireiOS;
 			sourceTree = "<group>";
@@ -232,9 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04442DAE247E1B4300D9A622 /* PandaBoard.storyboard in Resources */,
 				04F0AC4D247CB5B900209BCD /* LaunchScreen.storyboard in Resources */,
 				04F0AC4A247CB5B900209BCD /* Assets.xcassets in Resources */,
 				04F0AC48247CB5B800209BCD /* Main.storyboard in Resources */,
+				04491AF524822090007A3D3E /* NameTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04491AF424822090007A3D3E /* NameTableViewCell.swift in Sources */,
 				04F0AC45247CB5B800209BCD /* ViewController.swift in Sources */,
+				04491AEF24821BA5007A3D3E /* TableViewCell.swift in Sources */,
 				04F0AC41247CB5B800209BCD /* AppDelegate.swift in Sources */,
+				04491AF124821C45007A3D3E /* TableViewController.swift in Sources */,
 				04F0AC43247CB5B800209BCD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
